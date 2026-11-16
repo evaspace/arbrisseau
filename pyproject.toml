@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arbrisseau"
+version = "0.1.0"
+description = "Binary and general trees as small SVG files, from nested tuples, with no dependency"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Morgan Pierrefeu" }]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/evaspace/arbrisseau"
+
+[tool.setuptools]
+py-modules = ["arbrisseau"]
